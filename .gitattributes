@@ -1,0 +1,10 @@
+* text=auto eol=lf whitespace=!indent,trail,space
+
+.clang-format text
+.editorconfig text
+.gitattributes text
+.gitignore text
+
+*.[ch] diff=cpp
+
+*.ico -text -diff
